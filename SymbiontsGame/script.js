@@ -202,3 +202,4 @@ function updateHighScore() {
   }
   highScoreText.style.display = 'block';
 }
+document.getElementById("left").addEventListener("touchstart", () => player.moveLeft());
