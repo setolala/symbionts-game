@@ -89,4 +89,16 @@ body {
   height: 200px;
   object-fit: contain;
 }
+
+#controls {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+button {
+  font-size: 2em;
+  margin: 5px;
+}
+
   
